@@ -1,5 +1,6 @@
 # FLY_Katapult
-FLY工具板最新的katapult固件，目前只使用与CAN连接，请保证在普通用户下使用此固件包
+
+包含最新FLY工具板最新的katapult与普通主板的固件
 
 ## 1. 拉取固件包
 
@@ -13,7 +14,9 @@ cd && git clone https://github.com/FengHua741/FLY_Katapult.git
 cd && cd ~/FLY_Katapult && git pull
 ```
 
-## 2. 更新工具板固件
+## 2. 更新工具板Katapult固件
+
+* 目前只测试SHT36V2 103与072版本其他工具板未测试
 
 ```
  ~/klippy-env/bin/python ~/klipper/lib/canboot/flash_can.py -f <Update firmware path>  -u <Toolboard ID>
