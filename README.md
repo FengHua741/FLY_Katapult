@@ -21,6 +21,8 @@ cd && cd ~/FLY_Katapult && git pull
 
 ## 2. 更新工具板Katapult固件
 
+* 请注意需要Katapult固件更新原来的Katapult固件需要使用developer目录下的Katapult固件
+
 * 此方法是直接通过CAN更新工具板原有的Katapult固件
 
 ```
