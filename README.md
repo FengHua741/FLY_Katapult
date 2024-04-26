@@ -16,7 +16,7 @@ cd && git clone https://github.com/FengHua741/FLY_Katapult.git
 * 如果是固件可能随时更新建议使用前先执行下方命令
 
 ```
-cd ~/FLY_Katapult && git pull
+cd ~/FLY_Katapult && git pull && cd
 ```
 
 ## 2. 更新工具板Katapult固件
